@@ -49,4 +49,12 @@ public class ExampleTest {
         assertEquals(expectedReverse3, actual);
     }
     
+    @Test
+    public void testCode() {
+        String input ="software";
+        String output ="erawtfos";
+        String actual = main.reverse(input);
+        assertEquals(output, actual);
+    }
+    
 }
